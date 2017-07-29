@@ -57,7 +57,7 @@ beware, you won't have version info built into binary, when compiled that way.
 
 ### Building Docker Image
 
-Run `docker/build.sh`, image name is `restic/rest-server:latest`.
+Run `docker build -t restic/rest-server -f docker/Dockerfile .`
 
 ## Getting started
 
